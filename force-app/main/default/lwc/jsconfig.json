@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/filterContacts": [
+                "filterContacts/filterContacts.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/pubsubFilterContacts": [
+                "pubsubFilterContacts/pubsubFilterContacts.js"
+            ],
+            "c/pubsubRelatedContacts": [
+                "pubsubRelatedContacts/pubsubRelatedContacts.js"
+            ],
+            "c/relatedContacts": [
+                "relatedContacts/relatedContacts.js"
+            ],
+            "c/relatedContactsWithFilter": [
+                "relatedContactsWithFilter/relatedContactsWithFilter.js"
+            ],
+            "c/sample": [
+                "sample/sample.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

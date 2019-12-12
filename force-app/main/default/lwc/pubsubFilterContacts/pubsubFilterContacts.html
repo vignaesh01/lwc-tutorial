@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title={componentLabel} icon-name="standard:filter">
+        <div class="slds-m-around_medium">
+            <p>Value being typed : {filterValue}</p>
+            <lightning-input type="text" label="Filter By Name" onchange={handleChange}></lightning-input>
+            <br></br>
+
+            <lightning-button variant="brand" label="Filter" title="Filter by Name" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            
+        </div>
+    </lightning-card>
+</template>

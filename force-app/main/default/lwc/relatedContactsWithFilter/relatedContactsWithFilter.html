@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Related Contacts With Filter" icon-name="standard:contact">
+        <div class="slds-m-around_medium">
+            <c-filter-contacts component-label="Filter Contacts" onfilterkeysubmit={handleFilterKeySubmit}></c-filter-contacts>
+            <br></br>
+            
+            <lightning-datatable
+                key-field="Id"
+                data={data}
+                columns={columns}
+                hide-checkbox-column>
+            </lightning-datatable>
+
+        </div>
+    </lightning-card>
+</template>
