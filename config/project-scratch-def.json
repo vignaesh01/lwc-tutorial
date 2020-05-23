@@ -1,5 +1,23 @@
 {
-  "orgName": "Demo company",
+  "orgName": "LWC Tutorial",
   "edition": "Developer",
-  "features": []
+  "hasSampleData": true,
+  "features": [],
+  "settings": {
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "securitySettings": {
+        "passwordPolicies": {
+            "enableSetPasswordInApi": true
+        },
+        "sessionSettings":{
+          "sessionTimeout": "TwelveHours"
+        } 
+    },
+    "mobileSettings": {
+        "enableS1EncryptedStoragePref2": false
+    }
+  }
+  
 }
